@@ -1,0 +1,24 @@
+{
+  "name": "callbag-to-obs",
+  "version": "1.0.0",
+  "description": "Convert a listenable callbag source to ES Observable",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/callbag-to-obs.git"
+  },
+  "main": "readme.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag"
+  ],
+  "dependencies": {
+    "symbol-observable": "^1.2.0"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
